@@ -1,0 +1,35 @@
+body {
+  background: #c7ecf2;
+  color: #0bdf43;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 25px 50px;
+}
+
+code {
+  color: #09507c;
+  background: #deedf2;
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+
+td {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+button {
+  font-size: 20px;
+  color: black;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: border-color, background-color, color 1s linear;
+}
+button:hover {
+  color: red;
+  border-color: #09507c;
+  background-color: #deedf2;
+}
